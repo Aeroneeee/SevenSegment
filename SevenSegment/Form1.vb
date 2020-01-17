@@ -6,17 +6,19 @@
         Timer1.Interval = TimeSpan.FromSeconds(1).TotalMilliseconds
         Timer1.Start()
 
-        a.Visible = True
-        b.Visible = True
-        c.Visible = True
-        d.Visible = True
-        e.Visible = True
-        f.Visible = True
-        g.Visible = False
     End Sub
 
     Private Sub Timer1_Tick(sender As Object, ev As EventArgs) Handles Timer1.Tick
-        counter += 1
+
+        If counter = 0 Then
+            a.Visible = True
+            b.Visible = True
+            c.Visible = True
+            d.Visible = True
+            e.Visible = True
+            f.Visible = True
+            g.Visible = False
+        End If
 
         If counter = 1 Then
             a.Visible = False
@@ -56,6 +58,62 @@
             e.Visible = False
             f.Visible = True
             g.Visible = True
+        End If
+
+        If counter = 5 Then
+            a.Visible = True
+            b.Visible = False
+            c.Visible = True
+            d.Visible = True
+            e.Visible = True
+            f.Visible = False
+            g.Visible = True
+        End If
+
+        If counter = 6 Then
+            a.Visible = True
+            b.Visible = False
+            c.Visible = True
+            d.Visible = True
+            e.Visible = True
+            f.Visible = True
+            g.Visible = True
+        End If
+
+        If counter = 7 Then
+            a.Visible = True
+            b.Visible = True
+            c.Visible = True
+            d.Visible = False
+            e.Visible = False
+            f.Visible = False
+            g.Visible = False
+        End If
+
+        If counter = 8 Then
+            a.Visible = True
+            b.Visible = True
+            c.Visible = True
+            d.Visible = True
+            e.Visible = True
+            f.Visible = True
+            g.Visible = True
+        End If
+
+        If counter = 9 Then
+            a.Visible = True
+            b.Visible = True
+            c.Visible = True
+            d.Visible = True
+            e.Visible = False
+            f.Visible = True
+            g.Visible = True
+        End If
+
+        If counter = 9 Then
+            counter = 0
+        Else
+            counter += 1
         End If
 
     End Sub
