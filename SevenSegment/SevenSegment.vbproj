@@ -125,5 +125,11 @@
   <ItemGroup>
     <None Include="Resources\7seeeg.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7seeeg1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7seeg1.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
