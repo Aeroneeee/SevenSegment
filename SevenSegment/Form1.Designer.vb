@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form1
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
@@ -44,7 +44,7 @@ Partial Class Form1
         'f
         '
         Me.f.Image = CType(resources.GetObject("f.Image"), System.Drawing.Image)
-        Me.f.Location = New System.Drawing.Point(28, 44)
+        Me.f.Location = New System.Drawing.Point(6, 33)
         Me.f.Name = "f"
         Me.f.Size = New System.Drawing.Size(35, 235)
         Me.f.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -54,7 +54,7 @@ Partial Class Form1
         'b
         '
         Me.b.Image = CType(resources.GetObject("b.Image"), System.Drawing.Image)
-        Me.b.Location = New System.Drawing.Point(285, 44)
+        Me.b.Location = New System.Drawing.Point(263, 33)
         Me.b.Name = "b"
         Me.b.Size = New System.Drawing.Size(35, 235)
         Me.b.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -64,7 +64,7 @@ Partial Class Form1
         'e
         '
         Me.e.Image = CType(resources.GetObject("e.Image"), System.Drawing.Image)
-        Me.e.Location = New System.Drawing.Point(28, 296)
+        Me.e.Location = New System.Drawing.Point(6, 285)
         Me.e.Name = "e"
         Me.e.Size = New System.Drawing.Size(35, 235)
         Me.e.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -74,12 +74,12 @@ Partial Class Form1
         'Timer1
         '
         Me.Timer1.Enabled = True
-        Me.Timer1.Interval = 1000
+        Me.Timer1.Interval = 10000
         '
         'c
         '
         Me.c.Image = CType(resources.GetObject("c.Image"), System.Drawing.Image)
-        Me.c.Location = New System.Drawing.Point(285, 296)
+        Me.c.Location = New System.Drawing.Point(263, 285)
         Me.c.Name = "c"
         Me.c.Size = New System.Drawing.Size(35, 235)
         Me.c.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -89,7 +89,7 @@ Partial Class Form1
         'a
         '
         Me.a.Image = CType(resources.GetObject("a.Image"), System.Drawing.Image)
-        Me.a.Location = New System.Drawing.Point(58, 17)
+        Me.a.Location = New System.Drawing.Point(36, 6)
         Me.a.Name = "a"
         Me.a.Size = New System.Drawing.Size(235, 35)
         Me.a.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -99,7 +99,7 @@ Partial Class Form1
         'g
         '
         Me.g.Image = CType(resources.GetObject("g.Image"), System.Drawing.Image)
-        Me.g.Location = New System.Drawing.Point(54, 271)
+        Me.g.Location = New System.Drawing.Point(32, 260)
         Me.g.Name = "g"
         Me.g.Size = New System.Drawing.Size(235, 35)
         Me.g.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -109,7 +109,7 @@ Partial Class Form1
         'd
         '
         Me.d.Image = CType(resources.GetObject("d.Image"), System.Drawing.Image)
-        Me.d.Location = New System.Drawing.Point(57, 521)
+        Me.d.Location = New System.Drawing.Point(35, 510)
         Me.d.Name = "d"
         Me.d.Size = New System.Drawing.Size(235, 35)
         Me.d.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -121,7 +121,7 @@ Partial Class Form1
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(348, 557)
+        Me.ClientSize = New System.Drawing.Size(306, 550)
         Me.Controls.Add(Me.d)
         Me.Controls.Add(Me.g)
         Me.Controls.Add(Me.a)
