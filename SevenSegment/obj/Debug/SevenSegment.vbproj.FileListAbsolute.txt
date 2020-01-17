@@ -8,3 +8,4 @@ C:\Users\Aerone\source\repos\SevenSegment\SevenSegment\obj\Debug\SevenSegment.vb
 C:\Users\Aerone\source\repos\SevenSegment\SevenSegment\obj\Debug\SevenSegment.exe
 C:\Users\Aerone\source\repos\SevenSegment\SevenSegment\obj\Debug\SevenSegment.xml
 C:\Users\Aerone\source\repos\SevenSegment\SevenSegment\obj\Debug\SevenSegment.pdb
+C:\Users\Aerone\source\repos\SevenSegment\SevenSegment\obj\Debug\SevenSegment.Form1.resources
